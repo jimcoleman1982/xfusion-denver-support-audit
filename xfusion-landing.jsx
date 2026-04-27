@@ -401,6 +401,7 @@ function Testimonials() {
       <div className="xf-container">
         <div className="xf-tm-head">
           <h2 className="xf-h-section">What founders say after xFusion takes over their support.</h2>
+          <p className="xf-tm-subnote">(These are our real customers, not fake testimonials.)</p>
         </div>
         <div className="xf-tm-grid">
           {TESTIMONIALS.map((t, i) => (

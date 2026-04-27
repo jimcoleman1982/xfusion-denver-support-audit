@@ -409,8 +409,13 @@ p.xf-hero-deck {
   border-top: 1px solid var(--xf-rule);
 }
 
+/* Tighten the Story -> Offer boundary so the transition reads as one beat. */
+.xf-story { padding-bottom: 32px; }
+@media (min-width: 900px) { .xf-story { padding-bottom: 48px; } }
+
 /* ── offer ───────────────────────────────────────────────────── */
-.xf-offer { position: relative; }
+.xf-offer { position: relative; padding-top: 56px; }
+@media (min-width: 900px) { .xf-offer { padding-top: 80px; } }
 .xf-offer-contour {
   position: absolute;
   inset: 0;
@@ -418,7 +423,7 @@ p.xf-hero-deck {
   opacity: 0.06;
   z-index: 0;
 }
-.xf-offer > * { position: relative; z-index: 1; }
+.xf-offer > *:not(.xf-offer-contour) { position: relative; z-index: 1; }
 .xf-offer-head { text-align: center; }
 .xf-offer-head h2 { margin-bottom: 24px; }
 p.xf-offer-intro {
@@ -534,6 +539,12 @@ p.xf-offer-intro {
 
 /* ── testimonials ────────────────────────────────────────────── */
 .xf-tm-head { text-align: center; margin-bottom: 48px; }
+.xf-tm-head p.xf-tm-subnote {
+  margin: 14px 0 0;
+  font-size: 14px;
+  font-style: italic;
+  color: var(--xf-mute);
+}
 .xf-tm-grid {
   display: grid;
   gap: 20px;
