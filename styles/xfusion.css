@@ -265,15 +265,15 @@
 }
 
 .xf-hero-prehead { margin-bottom: 22px; }
-.xf-hero-deck {
-  margin-top: 21px;
+p.xf-hero-deck {
+  margin: 36px auto 1.1em;
   max-width: 600px;
   font-size: 17px;
   line-height: 1.6;
   color: var(--xf-ink);
 }
 @media (min-width: 900px) {
-  .xf-hero-deck { margin-top: 27px; font-size: 19px; }
+  p.xf-hero-deck { margin-top: 48px; font-size: 19px; }
 }
 
 .xf-hero-mountain {
@@ -539,8 +539,11 @@
   gap: 20px;
   grid-template-columns: 1fr;
 }
-@media (min-width: 900px) {
-  .xf-tm-grid { grid-template-columns: repeat(2, 1fr); gap: 24px; }
+@media (min-width: 700px) and (max-width: 1099px) {
+  .xf-tm-grid { grid-template-columns: repeat(2, 1fr); gap: 22px; }
+}
+@media (min-width: 1100px) {
+  .xf-tm-grid { grid-template-columns: repeat(3, 1fr); gap: 24px; }
 }
 .xf-tm-card { display: flex; flex-direction: column; gap: 18px; }
 .xf-tm-portrait {

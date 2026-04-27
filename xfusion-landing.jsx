@@ -96,7 +96,7 @@ function Hero() {
   return (
     <section className="xf-hero">
       <div className="xf-container">
-        <div className="xf-medium" style={{ textAlign: "left" }}>
+        <div className="xf-medium" style={{ textAlign: "center" }}>
           <p className="xf-prehead xf-hero-prehead">
             For Denver business owners whose customer support is breaking.
           </p>
@@ -104,13 +104,13 @@ function Hero() {
             Find out which customers you are losing this week.
           </h1>
           <p className="xf-hero-deck">
-            30 minutes with a Denver-based xFusion ops lead. We audit every channel and hand you a written diagnosis of what is broken and what to fix first. No pitch.
+            45 minutes with Jim Coleman, founder of xFusion. Bring whatever you know about where your support is breaking. He'll help you see the bottlenecks you may not be seeing and think clearly about what to do next. No slide deck. No pitch.
           </p>
         </div>
 
         <VideoPlaceholder />
 
-        <PrimaryCTA subText="30 minutes. Free. No pitch.">
+        <PrimaryCTA subText="45 minutes. Free. No pitch.">
           Get my Denver Support Audit
         </PrimaryCTA>
       </div>
@@ -145,18 +145,18 @@ function Lead() {
       <div className="xf-container">
         <div className="xf-narrow">
           <p className="xf-lead-blockquote">
-            If you own a Denver business and your customer support is breaking, this 30 minutes was built for you.
+            If your customer support is breaking, this 45 minutes was built for you.
           </p>
           <p>
-            One call, one xFusion ops lead, and you walk out with a written diagnosis: every channel your customers are messaging on, every gap in your current setup, every slip-through that is costing you customers, and a prioritized list of what to fix first. Not a brochure. Real findings on your specific business.
+            One call, with me, Jim Coleman, founder of xFusion. I live and work right here in the Denver area, and I have spent six years running customer support teams for companies like yours. Bring whatever is on your mind. I will help you see the bottlenecks you may not be seeing, and we will talk through what is worth fixing yourself, what is worth outsourcing, and what is worth leaving alone for now.
           </p>
-          <p>No slide deck. No sales pitch. No drip sequence chasing you for the next month.</p>
+          <p>No slide deck. No sales pitch. No metrics or reports required from you.</p>
           <p>
-            Most Denver owners who take this call have already tried a VA, a chatbot, or hiring in-house. Most of them say the same thing afterward: "I did not know it was this bad."
+            Most owners who take this call have already tried a VA, a chatbot, or hiring in-house. Most of them say the same thing afterward: "I didn't realize how much I was missing."
           </p>
-          <p>30 minutes. Free. Backed by the No-Pitch Audit.</p>
+          <p>45 minutes. Free. Backed by the No-Pitch Promise.</p>
           <p>
-            If you are a Denver owner who is tired of being the person answering every customer message, this is the call that tells you what to do about it.
+            If you are tired of being the person answering every customer message, this is the call that helps you think clearly about what to do next.
           </p>
         </div>
       </div>
@@ -171,14 +171,14 @@ function Story() {
       <div className="xf-container">
         <div className="xf-narrow">
           <div className="xf-story-mark"><MountainMark /></div>
-          <h2 className="xf-h-section">Why Denver businesses are drowning in customer support.</h2>
+          <h2 className="xf-h-section">Why so many businesses are drowning in customer support.</h2>
           <div style={{ marginTop: 36 }}>
             <p>Monday morning, 7:47am, and you already have 43 unread emails.</p>
             <p>
-              12 of them are from customers. 4 of those are from customers who emailed last week and never got a reply. There is a chat blinking in another tab from someone who tried to reach you Saturday at 9pm. Your Instagram DMs have a question from a wedding photographer who needs a quote by tonight or she is going somewhere else.
+              12 of them are from customers. 4 of those are from customers who emailed last week and never got a reply. There is a chat blinking in another tab from someone who tried to reach you Saturday at 9pm. Your Instagram DMs have a question from someone who is comparing you to a competitor and needs an answer by tonight.
             </p>
             <p>
-              You built this Denver business. You earned every customer. And right now you are personally answering most of them, between meetings and after dinner, because every other option you tried has failed.
+              You built this business. You earned every customer. And right now you are personally answering most of them, between meetings and after dinner, because every other option you tried has failed.
             </p>
             <p>
               You hired a VA. She was cheap. She also told a customer the wrong return policy on day three, and you spent an hour fixing it.
@@ -200,13 +200,13 @@ function Story() {
 
           <div className="xf-story-final">
             <p>
-              Here is what almost nobody tells Denver owners. The right answer is not a VA. Not a bot. Not another in-house hire. It is a team that already knows how to do this work, knows how to use AI tools to do it faster than humans alone ever could, and covers every channel your customers actually use.
+              Here is what almost nobody tells overwhelmed owners. The right answer is not a VA. Not a bot. Not another in-house hire. It is a team that already knows how to do this work, knows how to use AI tools to do it faster than humans alone ever could, and covers every channel your customers actually use.
             </p>
             <p style={{ fontFamily: "var(--xf-serif)", fontSize: 24, fontWeight: 600, color: "var(--xf-accent)", margin: "20px 0" }}>
               That is xFusion.
             </p>
             <p>
-              We are a customer support team built for Denver business owners. Phone, email, live chat, social DMs, all of it. Our agents are senior, with years of front-line work behind them. They use AI tools that draft, triage, and route in real time, so responses go out in minutes instead of hours. They learn your voice, your products, and your policies, and they answer the way you would. Except they answer all of them. Including the one that came in at 9pm Saturday from the wedding photographer.
+              We are a customer support team for owners like you, and I am based right here in the Denver area. Phone, email, live chat, social DMs, all of it. Our agents are senior, with years of front-line work behind them. They use AI tools that draft, triage, and route in real time, so responses go out in minutes instead of hours. They learn your voice, your products, and your policies, and they answer the way you would. Except they answer all of them. Including the one that came in at 9pm Saturday from someone comparing you to a competitor.
             </p>
             <p>
               You stop being the person who answers customer messages. You become the person who runs the business again.
@@ -222,42 +222,42 @@ function Story() {
 const OFFER_CARDS = [
   {
     n: "01",
-    title: "Your Channel Coverage Check",
+    title: "Your real bottlenecks",
     bullets: [
-      "A working map of every channel your customers are messaging on right now: phone, email, live chat, Instagram, Facebook, Google reviews, and anywhere else",
-      "Where the coverage gaps are, including the channels you may not even be monitoring",
-      "Current response time on each channel, measured against what your customers actually expect",
-      "The specific channels where you are losing customers fastest",
+      "A consultative conversation about the parts of customer support that feel stuck or overwhelming in your week",
+      "Patterns I have seen across hundreds of clients that may apply to yours",
+      "The bottlenecks owners often miss because they are too close to the work",
+      "No metrics or dashboards required, just bring what is on your mind",
     ],
   },
   {
     n: "02",
-    title: "Your Slip-Through Diagnosis",
+    title: "What customers feel",
     bullets: [
-      "Which customer messages are going unanswered, half-answered, or answered too late",
-      "Where in your week the volume hits hardest and breaks your current setup",
-      "The specific cost of the slip-throughs (lost deals, lost reviews, lost return customers)",
-      "A walk-through of recent customer interactions on your business that show the pattern",
+      "A discussion of the channels where customers commonly slip through (phone, email, chat, social)",
+      "The customer signals that get lost when no one is watching for them",
+      "The kinds of small frustrations that quietly cost a business return customers and reviews",
+      "Real examples from xFusion clients to help you spot the same patterns in your own business",
     ],
   },
   {
     n: "03",
-    title: "The Fix List",
+    title: "A clearer path forward",
     bullets: [
-      "A prioritized list of fixes for your specific business, ordered by impact",
-      "What you can fix yourself this week with no outside help",
-      "What requires a tool or a process change inside the next 30 days",
-      "What requires a real support team running your front line, and what that should look like",
+      "What you could fix yourself or with a small tool, and what to try first",
+      "What probably needs outside help, with an honest reality check on the trade-offs",
+      "What to leave alone for now, and why",
+      "A consultative discussion based on six years of running support, not a pitch",
     ],
   },
   {
     n: "04",
-    title: "Honest Fit Answer",
+    title: "Honest fit answer",
     bullets: [
-      "Whether xFusion is the right team to run your support, given your size, your channels, and your customer base",
-      "If we are not a fit, who else in Denver might be (or whether to keep it in-house)",
-      "If we are a fit, what running it would look like in your first 30 and 90 days",
-      "A direct answer with no follow-up nag if you decide it is not for you",
+      "A direct answer on whether xFusion is the right team to run your support, or not",
+      "If yes, a high-level look at what working together would look like in your first 30 and 90 days",
+      "If no, an honest take on what direction would actually serve you better",
+      "Either answer is fine, the call is worth your time either way",
     ],
   },
 ];
@@ -268,13 +268,13 @@ function Offer() {
       <ContourPattern />
       <div className="xf-container">
         <div className="xf-offer-head">
-          <h2 className="xf-h-section">What we cover in 30 minutes.</h2>
+          <h2 className="xf-h-section">What we cover in 45 minutes.</h2>
           <p className="xf-offer-intro">
-            In one 30-minute call, an xFusion ops lead audits your customer support across every channel your customers are actually using. You walk away with answers you cannot get from a generic agency, a chatbot vendor, or another VA hire.
+            In one 45-minute call, we have a real conversation about where your customer support is breaking, what you have already tried, and what to do about it. No deliverable to prep for, no metrics to gather, no homework on your end. Just bring what is on your mind.
           </p>
           <div className="xf-offer-promise">
             <p className="xf-pull-quote">
-              You walk out knowing exactly which customers you are losing this week, on which channel, and the specific fixes that close the gap. In writing. On your specific business.
+              You walk out with a clearer way to think about your customer support, an honest perspective from someone who has run it for hundreds of businesses, and a direct answer on whether outside help would actually help you.
             </p>
           </div>
         </div>
@@ -293,25 +293,25 @@ function Offer() {
 
         <div className="xf-why">
           <div className="xf-why-head">
-            <h3 className="xf-h-sub">Why xFusion runs this audit, not a chatbot vendor, a VA agency, or another consultant.</h3>
+            <h3 className="xf-h-sub">Why this call, not a chatbot vendor pitch or a VA agency demo.</h3>
           </div>
           <div className="xf-why-grid">
             <div className="xf-why-item">
               <p>
                 <strong>Senior people, not entry-level.</strong>
-                Most outsourced support is someone reading a script for a few dollars an hour. xFusion staffs experienced support pros with years of front-line work, then arms them with AI tools so they answer faster than any human-only team ever could. The audit reflects that standard: you are talking to a Denver-based ops lead, not a junior researcher.
+                Most outsourced support is someone reading a script for a few dollars an hour. xFusion staffs experienced support pros with years of front-line work, then arms them with AI tools so they answer faster than any human-only team ever could. This call reflects that standard: you are talking to me, the founder, not a junior salesperson.
               </p>
             </div>
             <div className="xf-why-item">
               <p>
                 <strong>All channels, not just one.</strong>
-                Most agencies do email tickets. Or just chat. Or just social. xFusion covers phone, email, live chat, and social as a single coordinated front line. The audit looks at the whole picture, not the slice that is convenient for someone to sell you.
+                Most agencies do email tickets. Or just chat. Or just social. xFusion covers phone, email, live chat, and social as a single coordinated front line. The conversation looks at the whole picture, not the slice that is convenient for someone to sell you.
               </p>
             </div>
             <div className="xf-why-item">
               <p>
                 <strong>Run your support, not just advise on it.</strong>
-                Most consultants tell you what is broken and walk out. xFusion runs the support function for the businesses we audit, when we are a fit. The audit is the same work we do on day one with a new client, given to you free, even if you never hire us.
+                Most consultants tell you what is broken and walk out. xFusion actually runs the support function for the businesses we work with. So when we talk, you are talking to someone whose team does this work every day, not someone who has only ever made slide decks about it.
               </p>
             </div>
           </div>
@@ -328,7 +328,7 @@ function BandCTA() {
       <div className="xf-band-cta">
         <p className="xf-prehead">The Denver Support Audit</p>
         <h2>Stop being the person answering every customer message.</h2>
-        <PrimaryCTA subText="Free. Denver owners only. Same-week scheduling.">
+        <PrimaryCTA subText="45 minutes. Free. Same-week scheduling.">
           Book my Denver Support Audit
         </PrimaryCTA>
       </div>
@@ -351,6 +351,20 @@ const TESTIMONIALS = [
     pull: "I was admittedly skeptical at first. They proved my skepticism unwarranted.",
     body: "As a founder busy building and marketing my product, I wanted a partner I could trust to train and manage dedicated reps as an extension of my team. This is not your stereotypical outsourced support agency. They've cut our average response time by 84.79% and freed me up to focus on running the business.",
     attr: "Derrick Reimer, Founder, SavvyCal.",
+  },
+  {
+    file: "uploads/Toby Marsden of Ordered Magic.png",
+    initials: "TM",
+    pull: "I thought my life was going to become a living hell. It was extraordinary instead.",
+    body: "I was sure outsourcing would mean dropped tickets, the wrong tone, and an exploding workload. None of that happened. The xFusion team grew from one dedicated agent to two full-time and a part-time weekend agent, and the entire way I think about the future of my business has changed.",
+    attr: "Toby Marsden, Founder, Ordered Magic.",
+  },
+  {
+    file: "uploads/Dov Kaufmann of Tolstoy.png",
+    initials: "DK",
+    pull: "An absolute game-changer. We grow faster and more professionally than we ever could alone.",
+    body: "Working with the xFusion team enabled us to scale customer support from a single agent to a six-person team handling Tier 1 and Tier 2 work. The partnership has been so valuable that our Shopify app ranking jumped 90 points after a wave of 5-star reviews tied to better support. I can't praise the team enough.",
+    attr: "Dov Kaufmann, COO, Tolstoy.",
   },
   {
     file: "uploads/Claire Fundingsland of SkyFi.png",
@@ -411,20 +425,20 @@ function Close() {
         <div className="xf-narrow">
           <div className="xf-close-head">
             <h2 className="xf-h-sub" style={{ color: "var(--xf-accent)", fontSize: "30px" }}>
-              Why is the audit free?
+              Why is the call free?
             </h2>
           </div>
           <div className="xf-close-body">
             <p>
-              Most customer support consultants charge real money to come into your business, identify what is broken, and walk out leaving you to fix it yourself. xFusion does not operate that way. The 30-minute audit is free because we only take on a small number of new Denver clients per quarter, and the audit is how we figure out if you are a fit. Owners who are not a fit still walk away with the written diagnosis and the prioritized fix list. Owners who are a fit get a proposal to have us run support for them. Either way, the 30 minutes was worth your time.
+              Most customer support consultants charge real money to come in, tell you what is broken, and walk out leaving you to fix it yourself. I do not operate that way. The 45-minute call is free because I only take on a small number of new clients per quarter, and this conversation is how I figure out if you are a fit. Owners who are not a fit walk away with a clearer way to think about their support and an honest opinion from someone who has run it for hundreds of businesses. Owners who are a fit get a proposal. Either way, the 45 minutes was worth your time.
             </p>
           </div>
         </div>
 
         <div className="xf-guarantee">
-          <p className="xf-guarantee-title">The No-Pitch Audit.</p>
+          <p className="xf-guarantee-title">The No-Pitch Promise.</p>
           <p>
-            In 30 minutes together, we audit your customer support across every channel: how long customers wait, what is slipping through, and where you are losing money in unanswered messages. You leave with a written diagnosis and a prioritized fix list specific to your business. We will not pull out a slide deck. We will not pitch you. If at any point the call starts feeling like a sales call, end it. You keep the diagnosis and the fix list. No follow-up nag. No drip sequence chasing you for the next month. That is the deal.
+            In 45 minutes together, I will dig into where your customer support is breaking, and we will talk through what to do about it. I will not pull out a slide deck. I will not pitch you. If at any point the call starts feeling like a sales call, end it. That is the deal.
           </p>
         </div>
       </div>
@@ -435,44 +449,40 @@ function Close() {
 // ── faq ──────────────────────────────────────────────────────
 const FAQ_ITEMS = [
   {
-    q: "What actually happens on the audit?",
-    a: "We look at your support across every channel: phone, email, live chat, Instagram DMs, Facebook messages, and reviews. We measure response times, identify the channels where customers are slipping through, and walk you through specific examples on your own business. You leave with a written diagnosis and a prioritized fix list.",
+    q: "What actually happens on the call?",
+    a: "It is a consultative conversation. I will ask about where customer support feels broken in your week, what you have tried, and what you are actually trying to accomplish. From there we talk through what is worth fixing yourself, what could be solved with a tool, and where outside help might be worth considering. You bring whatever you know. No metrics or reports required.",
   },
   {
     q: "Why is it free?",
-    a: "We only take on a small number of new Denver clients per quarter. The audit is how we figure out if you are a fit. Owners who are not a fit still get the diagnosis and the fix list. We deliver real value either way.",
+    a: "I only take on a small number of new clients per quarter, and this call is how I figure out if you are a fit. Owners who are not a fit walk away with the same honest perspective. I do not have an interest in selling you on something that will not work.",
   },
   {
     q: "Is this a sales call?",
-    a: "No. The No-Pitch Audit is the rule. No slide deck, no pitch, no follow-up sequence chasing you. If at any point you feel like you are being sold, end the call. You keep everything we covered.",
+    a: "No. The No-Pitch Promise is the rule. No slide deck and no pitch. If at any point the call starts feeling like a sales call, end it.",
   },
   {
-    q: "Phone or in person?",
-    a: "Denver Front Range owners get the choice. We can come to you, you can come to our office, or we run it on Zoom or by phone. Outside Denver: phone or video.",
-  },
-  {
-    q: "Do I need to share data?",
-    a: "Helpful but not required. If you can show us your support inbox, your help desk dashboard, or even just a screenshot of unread counts on each channel, we get more precise. If you cannot share data, we work with what you describe and still produce useful findings.",
+    q: "Do I need to prepare anything?",
+    a: "Not really. Bring whatever is top of mind: where your support feels stuck, the tools you have tried, the customer messages that have been frustrating you. No metrics, no dashboards, no reports required.",
   },
   {
     q: "How long is it really?",
-    a: "30 minutes. Some calls run shorter when an owner is clearly not a fit, and that is still useful information for both sides.",
+    a: "45 minutes. Some calls run shorter when it is clear we are not a fit, and that is still useful information for both sides.",
   },
   {
     q: "Is the call confidential?",
-    a: "Yes. We will sign a standard NDA on request. Nothing you share with us goes anywhere else.",
+    a: "Yes. I will sign a standard NDA on request. Nothing you share with me goes anywhere else.",
   },
   {
     q: "What happens after the call?",
-    a: "Nothing automatic. You walk away with the diagnosis and the fix list. If you want a proposal for us to run support for you, you tell us. If you do not, we shake hands and you keep everything we covered. No automated drip emails.",
+    a: "You walk away with a clearer way to think about your customer support. If you want to talk about working together, you tell me. I may reach out once or twice in the weeks after if I think there is something useful to share, but it is never a hard sell, and you can tell me to stop anytime.",
   },
   {
-    q: "What if my business is not in Denver?",
-    a: "The audit still works, and you will still get useful findings. The Denver-based ops lead and the in-person option are reserved for Front Range businesses.",
+    q: "What if my business is not in the Denver area?",
+    a: "The call still works. I run these on Zoom so we can do it from anywhere. The Denver-area thing is just where I am based.",
   },
   {
     q: "What is the catch?",
-    a: "No catch. The No-Pitch Audit is the rule. The 30 minutes is real, the diagnosis is real, and the fix list is yours regardless of whether you become a client.",
+    a: "No catch. The No-Pitch Promise is the rule. The 45 minutes is real, the perspective is honest, and you walk away with something useful regardless of what you do next.",
   },
 ];
 
@@ -514,9 +524,9 @@ function FinalCTA() {
   return (
     <section className="xf-band xf-final">
       <p className="xf-prehead" style={{ marginBottom: 22 }}>One last thing.</p>
-      <h2>You can keep answering messages at 9pm. Or you can book the audit.</h2>
-      <PrimaryCTA subText="Denver-based. 30 minutes. Free. Walk away with a written diagnosis on your specific business.">
-        Claim my free audit
+      <h2>You can keep answering messages at 9pm. Or you can book the call.</h2>
+      <PrimaryCTA subText="45 minutes on Zoom. Free. Walk away with a clearer way to think about your support.">
+        Claim my free call
       </PrimaryCTA>
       <MountainLine className="xf-final-mountain" />
     </section>
